@@ -8,19 +8,19 @@ if [ $PERCENTAGE = "" ]; then
 fi
 
 case ${PERCENTAGE} in
-  9[0-9]|100) ICON="bt:"
+  9[0-9]|100) ICON="bat:"
   ;;
-  [6-8][0-9]) ICON="bt:"
+  [6-8][0-9]) ICON="bat:"
   ;;
-  [3-5][0-9]) ICON="bt:"
+  [3-5][0-9]) ICON="bat:"
   ;;
-  [1-2][0-9]) ICON="bt:"
+  [1-2][0-9]) ICON="bat:"
   ;;
-  *) ICON="bt:"
+  *) ICON="bat:"
 esac
 
 if [[ $CHARGING != "" ]]; then
-  ICON="􀢋"
+  ICON="bat: "
 fi
 
 # The item invoking this script (name $NAME) will get its icon and label

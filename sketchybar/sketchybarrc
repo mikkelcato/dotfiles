@@ -32,15 +32,15 @@ default=(
   #icon.color=$ACCENT_COLOR
   #label.color=$ACCENT_COLOR
   background.color=$ITEM_BG_COLOR
-  background.corner_radius=20
+  background.corner_radius=0
   background.height=30
   icon.padding_left=10
   icon.padding_right=5
   label.padding_left=5
   label.padding_right=10
   background.drawing=on
-  #background.border_color=$BORDER_COLOR
-  background.border_width=3
+  background.border_color=$BORDER_COLOR
+  background.border_width=1
 )
 sketchybar --default "${default[@]}"
 

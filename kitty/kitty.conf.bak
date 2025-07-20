@@ -2786,14 +2786,14 @@
 
 
 # BEGIN_KITTY_THEME
-# Terafox
+# Glacier
 include current-theme.conf
 # END_KITTY_THEME
 
 # BEGIN_KITTY_FONTS
 font_family      family="FiraCode Nerd Font Mono"
 bold_font        auto
-font_size        24
+font_size        20
 italic_font      uto
 bold_italic_font auto
 # END_KITTY_FONTS
