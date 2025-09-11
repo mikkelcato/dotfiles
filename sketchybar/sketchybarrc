@@ -17,7 +17,7 @@ ITEM_DIR="$CONFIG_DIR/items"
 # If you are looking for other colors, see the color picker:
 # https://felixkratz.github.io/SketchyBar/config/tricks#color-picker
 
-sketchybar --bar position=top height=35 blur_radius=0 color=$BAR_COLOR hidden=false
+sketchybar --bar position=top height=45 blur_radius=0 color=$BAR_COLOR hidden=false
 
 ##### Changing Defaults #####
 # We now change some default values, which are applied to all further items.
@@ -25,19 +25,19 @@ sketchybar --bar position=top height=35 blur_radius=0 color=$BAR_COLOR hidden=fa
 # https://felixkratz.github.io/SketchyBar/config/items
 
 default=(
-  padding_left=10
-  padding_right=6
+  padding_left=0
+  padding_right=-10
   icon.font="FiraCode Nerd Font Mono:Bold:17.0"
   label.font="FiraCode Nerd Font Mono:Bold:17.0"
   #icon.color=$ACCENT_COLOR
   #label.color=$ACCENT_COLOR
   background.color=$ITEM_BG_COLOR
   background.corner_radius=0
-  background.height=30
-  icon.padding_left=10
-  icon.padding_right=5
-  label.padding_left=5
-  label.padding_right=10
+  background.height=25
+  icon.padding_left=5
+  icon.padding_right=0
+  label.padding_left=0
+  label.padding_right=5
   background.drawing=on
   background.border_color=$BORDER_COLOR
   background.border_width=1
@@ -48,8 +48,8 @@ sketchybar --default "${default[@]}"
 #source $ITEM_DIR/front_app.sh
 
 # -- Right Side Items --
-source $ITEM_DIR/cpu.sh
-source $ITEM_DIR/battery.sh
+#source $ITEM_DIR/cpu.sh
+#source $ITEM_DIR/battery.sh
 source $ITEM_DIR/calendar.sh
 
 
