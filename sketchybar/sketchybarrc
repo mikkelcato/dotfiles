@@ -27,13 +27,13 @@ sketchybar --bar position=top height=45 blur_radius=0 color=$BAR_COLOR hidden=fa
 default=(
   padding_left=0
   padding_right=-10
-  icon.font="FiraCode Nerd Font Mono:Bold:17.0"
-  label.font="FiraCode Nerd Font Mono:Bold:17.0"
+  icon.font="FiraCode Nerd Font Mono:Bold:16.0"
+  label.font="FiraCode Nerd Font Mono:Bold:16.0"
   #icon.color=$ACCENT_COLOR
   #label.color=$ACCENT_COLOR
   background.color=$ITEM_BG_COLOR
-  background.corner_radius=0
-  background.height=25
+  background.corner_radius=10
+  background.height=28
   icon.padding_left=5
   icon.padding_right=0
   label.padding_left=0

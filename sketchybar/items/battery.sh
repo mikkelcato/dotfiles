@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-sketchybar --add item battery q \
+sketchybar --add item battery r \
            --set battery update_freq=120 \
                          script="$PLUGIN_DIR/battery.sh" \
                  background.drawing=on \
