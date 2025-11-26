@@ -1,16 +1,16 @@
 return {
 	{
-		"EdenEast/nightfox.nvim",
+		"ellisonleao/gruvbox.nvim",
 		lazy = false,
-		name = "nightfox",
+		name = "gruvbox",
 		priority = 1000,
 		config = function()
-			require("nightfox").setup({
+			require("gruvbox").setup({
 				options = {
 					transparent = true,
 				},
 			})
-			vim.cmd("colorscheme carbonfox")
+			vim.cmd("colorscheme gruvbox")
 		end,
 	},
 }
